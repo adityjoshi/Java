@@ -10,8 +10,8 @@ public class AllPaths {
             {true,true,true}
     };
     int[][]path = new int [matrix.length][matrix[0].length];
-    AllPath("",matrix,0,0);
-   // AllPathsPrint("",matrix,0,0,path,0);
+ //   AllPath("",matrix,0,0);
+   AllPathsPrint("",matrix,0,0,path,0);
     }
 
     static void AllPath(String p , boolean[][] maze , int r , int c){

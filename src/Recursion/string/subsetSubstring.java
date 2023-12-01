@@ -34,7 +34,7 @@ public class subsetSubstring {
         ArrayList<String> left = subarr(p+ch , up.substring(1));
         ArrayList<String> right = subarr(p , up.substring(1));
         left.addAll(right);
-        Collections.sort(left); // to sort an arraylist
+        Collections.sort(left); // to Recursion.RecursionBasic.sort an arraylist
         return left ;
     }
     static void subAscii(String p , String up) {
